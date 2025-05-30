@@ -5,7 +5,7 @@
     "manifest_version": 3,
 
     "description": "Customize your character frame for D&D Beyond using any image you want.",
-    "author": "Rhuzor",
+    "author": "Joshua Lee Fletcher",
 
     "options_ui": {
         "page": "options.html",

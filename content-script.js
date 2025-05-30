@@ -1,4 +1,5 @@
 // script to inject in the browser for main extension functionality
+// uses cookies to store/load options for custom frame image
 var s = document.createElement('script');
 s.src = chrome.runtime.getURL('script.js');
 

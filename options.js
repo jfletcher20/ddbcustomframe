@@ -25,7 +25,7 @@ function save_options() {
 // stored in chrome.storage.
 function restore_options() {
     chrome.storage.sync.get({
-        frameURL: "https://i.imgur.com/sCXlJ7A.png"
+        frameURL: "https://i.imgur.com/sCXlJ7A.png" // default image URL, don't know where I got this from, contact via github for removal/credit in the form of a code comment
     }, function(items) {
         document.getElementById('frameurl').value = items.frameURL; // update input textbox
         document.getElementById('img').src = items.frameURL; // update image preview
