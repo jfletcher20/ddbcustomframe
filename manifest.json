@@ -1,0 +1,36 @@
+{
+    
+    "name": "D&D Beyond Custom Frames",
+    "version": "0.2.6",
+    "manifest_version": 3,
+
+    "description": "Customize your character frame for D&D Beyond using any image you want.",
+    "author": "Rhuzor",
+
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    
+    "content_scripts": [
+        {
+            "matches": ["https://www.dndbeyond.com/characters/*"],
+            "js": ["content-script.js"],
+            "permissions": [ "storage" ]
+        }
+    ],
+
+    "icons": {
+        "16": "icon16.png",
+        "21": "icon32.png",
+        "48": "icon48.png",
+        "64": "icon64.png",
+        "128": "icon128.png",
+        "256": "icon256.png"
+    },
+
+    "permissions": [
+        "storage"
+    ]
+
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>D&D Beyond Custom Frames</title>
+<!--
+
+    Application icon uses picture: Boy character man school boy user icon
+    https://icons-for-free.com/boy+character+man+school+boy+user+icon-1320085976501561317/
+    made by: First STyles
+    https://icons-for-free.com/icons-author-First+Styles/
+    Under the license: https://creativecommons.org/licenses/by/3.0/
+
+    This artist has not endorsed my work.
+    This notice is here because I honestly don't know how else to include this notice in the extension.
+    Figured options.html was a good idea (as far as non-obtrusive inclusion methods go).
+    Feel free to contact me if you have a better idea.
+
+-->
+</head>
+    <body style="overflow: hidden;">
+        <label for="img" style="margin-top: 10px; font-size: large;"><p style="text-align: center;">Image preview</p></label>
+        <img id="img" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px; margin-top: 10px;
+                             height: 400px; width: 400px; border: 2px solid #555; background-image:
+                             url(https://media.discordapp.net/attachments/295122168726159360/999400697638428762/unknown.png);
+                             background-repeat: no-repeat; " src="">
+        <label for="frameurl" style="margin-top: 10px; font-size: large;">Image address</label>
+        <textarea id="frameurl" name="frameurl" placeholder="https://i.imgur.com/sCXlJ7A.png"
+                  cols="60" rows="1" style="resize: none; overflow: hidden; margin-top: 10px;"></textarea>
+        <button id="save" style="width: 100%; height: 20px;">Save</button><div id="status" style="padding-bottom: 10px; font-size: medium;"></div>
+        <script src="options.js"></script>
+    </body>
+</html>
